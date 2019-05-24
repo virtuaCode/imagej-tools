@@ -10,7 +10,7 @@ public class Binary_Dithering implements PlugInFilter {
 		this.imp = imp;
 		return DOES_RGB + DOES_8G;
 	}
-
+	
 	public void run(ImageProcessor ip) {
 		int height = ip.getHeight();
 		int width = ip.getWidth();

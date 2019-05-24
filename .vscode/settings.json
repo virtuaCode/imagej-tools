@@ -1,5 +1,8 @@
 {
     "java.dependency.packagePresentation": "flat",
     "java.dependency.syncWithFolderExplorer": true,
-    
+    "java.import.maven.enabled": false,
+    "java.autobuild.enabled": true,
+    "java.configuration.maven.userSettings": null,
+    "java.home": "/usr/lib/jvm/java-8-openjdk-amd64"
 }

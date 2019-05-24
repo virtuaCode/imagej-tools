@@ -8,7 +8,6 @@ import ij.plugin.filter.PlugInFilter;
 import ij.process.ImageProcessor;
 
 public class Blend_Maximum implements PlugInFilter, DialogListener {
-
 	String image2name;
 	ImagePlus image1;
 
@@ -34,7 +33,6 @@ public class Blend_Maximum implements PlugInFilter, DialogListener {
 	@Override
 	public boolean dialogItemChanged(GenericDialog gd, AWTEvent e) {
 		image2name = gd.getNextChoice();
-
 		return !gd.invalidNumber(); // input is valid if all numeric input is ok
 	}
 }

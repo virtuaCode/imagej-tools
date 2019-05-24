@@ -17,6 +17,7 @@ public class Grid_Ruler implements PlugInFilter, DialogListener {
 	double size;
 	int highlight;
 	ImagePlus image;
+
 	
 	@Override
 	public void run(ImageProcessor ip) {
